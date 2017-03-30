@@ -64,6 +64,7 @@ animateme = function(){
   if(animeCount<=5){
     switch (animeCount) {
       case 0:
+        $('.play_screen').removeClass('show');
         $("#div_title").addClass("animBorder");
         break;
       case 1:
